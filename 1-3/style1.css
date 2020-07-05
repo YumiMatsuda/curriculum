@@ -1,0 +1,42 @@
+/** header **/
+.wrapper {
+    width: 400px;
+    margin: 0 auto 0 auto;
+}
+.header {
+    height: 100px;
+    background-color: #141f40;
+}
+/** end of header **/ 
+/** left **/
+.left {
+    width: 150px;
+    height: 250px;
+    background-color: #80bfa8;
+    float: left;
+}
+/** end of left **/ /** right **/
+.right {
+    width: 250px;
+    height: 250px;
+    background-color: #8c2727;
+    float: left;
+}
+/** end of right **/ 
+/** footer **/
+.footer {
+    height: 100px;
+    background-color: #d98d30;
+}
+/** end of footer **/
+
+.clearfix:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+/** reset.css **/
+* {
+    margin: 0;
+    padding: 0;
+}
