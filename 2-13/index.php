@@ -2,27 +2,24 @@
 //ceil 切り上げ
 $x = 6.2;
 echo ceil($x);
-?>
 
-<p></p>
+echo "<br>";
+echo "<br>";
 
-<?php
 //floor 切り捨て
 $x = 6.2;
 echo floor($x);
-?>
 
-<p></p>
+echo "<br>";
+echo "<br>";
 
-<?php
 //四捨五入
 $x = 6.2;
 echo round($x);
-?>
 
-<p></p>
+echo "<br>";
+echo "<br>";
 
-<?php
 //pi(円周率)
 echo pi();
 
@@ -32,82 +29,73 @@ function circleArea($r) {
 }
 // 半径が6の円の面積の計算
 circleArea(6);
-?>
 
-<p></p>
+echo "<br>";
+echo "<br>";
 
-<?php
 //mt_rand(乱数)
 echo mt_rand(1, 25);
-?>
 
-<p></p>
+echo "<br>";
+echo "<br>";
 
-<?php
 //strlen（文字列の長さ）
 $str = "yasaisarada";
 echo strlen($str);
-?>
 
-<p></p>
+echo "<br>";
+echo "<br>";
 
-<?php
 //strpos（検索）
 $str = "yasaisarada";
 echo strpos($str, "i");
 // =>4と出力される
-?>
 
-<p></p>
+echo "<br>";
+echo "<br>";
 
-<?php
 //substr（文字列の切り取り）
 $str = "yasaisarada";
 echo substr($str, -6, 6);
 //saradaと出力される
-?>
 
-<p></p>
+echo "<br>";
+echo "<br>";
 
-<?php
 //str_replace（置換）
 $str = "yasaisarada";
 echo str_replace("yasai", "YaSaI", $str);
-?>
 
-<p></p>
+echo "<br>";
+echo "<br>";
 
-<?php
 //str_replace（置換）
 $str = "I am Matsuda";
 echo str_replace(" ", "", $str);
 //半角スペースがなくなる
-?>
 
-<p></p>
+echo "<br>";
+echo "<br>";
 
-<?php
 //printf（フォーマット化した文字列を出力）
 $name = "吉田さん";
 $limit_number = 10;
 
 printf("%sの残り時間は後%d秒です", $name, $limit_number);
-?>
 
-<p></p>
+echo "<br>";
+echo "<br>";
 
-<?php
 //printf（フォーマット化した文字列を出力）数を増やした場合
 $name = "吉田さん";
 $limit_minute = 10;
 $limit_second = 5;
 
 printf("%sの残り時間は%d分%d秒です", $name, $limit_minute, $limit_second);
-?>
 
-<p></p>
+echo "<br>";
+echo "<br>";
 
-<?php
 //2桁で表示させたい場合、%02dのように表記
 $limit_hour = 30;
 $limit_minute = 15;
