@@ -3,9 +3,9 @@
 $my_name = $_POST['my_name'];
 
 //①画像を参考に問題文の選択肢の配列を作成してください。
-$portnumber = array('80', '20', '21', '22');
-$language = array('PHP', 'Python', 'JAVA', 'HTML');
-$command = array('join', 'select', 'insert', 'update');
+$portnumber = ['80', '20', '21', '22'];
+$language = ['PHP', 'Python', 'JAVA', 'HTML'];
+$command = ['join', 'select', 'insert', 'update'];
     
 //② ①で作成した、配列から正解の選択肢の変数を作成してください
 $a_portnumber = $portnumber[0]; //80が正解
