@@ -2,7 +2,7 @@
 //require 'lib/password.php';を削除
 //require 'lib/password.php';
 // セッション開始
-session_start();
+//session_start();
 //dbconnect.phpへ変更
 include_once("dbconnect.php");
 
@@ -11,7 +11,7 @@ $errorMessage = "";
 $signUpMessage = "";
 
 // セッション開始
-session_start();
+//session_start();
 
 // ログインボタンが押された場合
 if (isset($_POST["signUp"])) {
